@@ -1,0 +1,25 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+A function literal is an expression that defines an unnamed function. The Syntax for a function literal is much like a function statement, except that it is used as an expression rather than a statement and no function name is required. 
+
+2. What is the constructor?
+The purpose of a constructor is to cause a new object to be created, to set it up and to return it as the constructor value. Constructors are named as a noun that describes the object that´s being constructed. When a constructor is invoked, a new object is created- then this object is passed to the constructor as the “this” parameter, and then it becomes the constructor´s function context. 
+In the absence of any explicit return value, the new object is returned as the constructor´s value. The “this” object is the object that “owns” the code. The value of “this”, when its used in an object, is the object itself. In a constructor function “this” does not have a value. It is a substitute for the new object and the value of “this” will become the new object when a new object is created. 
+
+
+3. What does the return statement do?
+A function will be stopped as soon as the return statement is reached.
+Any code after a return statement in function will not be executed. Code will be declared unreachable. 
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+“inside my function” will be written to the console from this function. 
+
+5. Briefly describe scope in JavaScript.
+Scope refers to the context of your console. It refers to where we define variables and functions. There are two types of scope: local and global. Variables that are declared within a JavaScript function, become local to the function. Local variables have function scope and they can only be accessed from within the function. A variable declared outside a function becomes global. A global variable has global scope and all scripts and functions on a web page can access it. 
